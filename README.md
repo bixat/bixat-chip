@@ -14,6 +14,16 @@ A modern, customizable React chip component for creating interactive social medi
 - TypeScript support
 - Lightweight and performant
 
+## Screenshots
+
+### Dark Mode
+
+![Dark Example](dark_example.png)
+
+### Light Mode
+
+![Light Example](light_example.png)
+
 ## Installation
 
 ```bash
@@ -73,8 +83,6 @@ interface TagType {
 
 ## Examples
 
-### Social Media Links
-
 ```tsx
 import { BixatChip, TagType } from 'bixat-chip';
 import { FaGithub, FaTwitter, FaLinkedin } from 'react-icons/fa';
@@ -91,7 +99,7 @@ const socialLinks = () => {
       name: "Twitter",
       textColor: "#1DA1F2",
       icon: <FaTwitter />,
-      website: "https://twitter.com/bixat"
+      website: "https://twitter.com/bixat4dev"
     }
   ];
 
@@ -110,7 +118,7 @@ const socialLinks = () => {
 ```
 
 
-### Customizing Styles
+## Customizing Styles
 
 ```css
 .bixat-chip-link {
@@ -130,15 +138,15 @@ const socialLinks = () => {
 }
 ```
 
-### Development
+## Development
 
-# Clone the repository
+### Clone the repository
 ```git clone https://github.com/bixat/bixat-chip.git```
 
-# Install dependencies
+### Install dependencies
 ```npm install```
 
-# Build the component
+### Build the component
 ```npm run build```
 
 ## Contributing

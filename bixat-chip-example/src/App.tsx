@@ -1,4 +1,4 @@
-import { BixatChip, tags } from "bixat-chip";
+import { BixatChip, BixatTags } from "bixat-chip";
 import { useState } from "react";
 
 function App() {
@@ -75,12 +75,12 @@ function App() {
               justifyContent: "center",
             }}
           >
-            <BixatChip tag={tags.react} withTitle={true} />
-            <BixatChip tag={tags.flutter} withTitle={true} />
-            <BixatChip tag={tags.angular} withTitle={true} />
-            <BixatChip tag={tags.tailwind} withTitle={true} />
-            <BixatChip tag={tags.html} withTitle={true} />
-            <BixatChip tag={tags.css} withTitle={true} />
+            <BixatChip tag={BixatTags.react} withTitle={true} />
+            <BixatChip tag={BixatTags.flutter} withTitle={true} />
+            <BixatChip tag={BixatTags.angular} withTitle={true} />
+            <BixatChip tag={BixatTags.tailwind} withTitle={true} />
+            <BixatChip tag={BixatTags.html} withTitle={true} />
+            <BixatChip tag={BixatTags.css} withTitle={true} />
           </div>
         </section>
 
@@ -97,11 +97,11 @@ function App() {
               justifyContent: "center",
             }}
           >
-            <BixatChip tag={tags.nodejs} withTitle={true} />
-            <BixatChip tag={tags.django} withTitle={true} />
-            <BixatChip tag={tags.firebase} withTitle={true} />
-            <BixatChip tag={tags.fastapi} withTitle={true} />
-            <BixatChip tag={tags.laravel} withTitle={true} />
+            <BixatChip tag={BixatTags.nodejs} withTitle={true} />
+            <BixatChip tag={BixatTags.django} withTitle={true} />
+            <BixatChip tag={BixatTags.firebase} withTitle={true} />
+            <BixatChip tag={BixatTags.fastapi} withTitle={true} />
+            <BixatChip tag={BixatTags.laravel} withTitle={true} />
           </div>
         </section>
 
@@ -118,10 +118,10 @@ function App() {
               justifyContent: "center",
             }}
           >
-            <BixatChip tag={tags.figma} withTitle={false} />
-            <BixatChip tag={tags.adobeXD} withTitle={false} />
-            <BixatChip tag={tags.adobeIllustrator} withTitle={false} />
-            <BixatChip tag={tags.adobePhotoshop} withTitle={false} />
+            <BixatChip tag={BixatTags.figma} withTitle={false} />
+            <BixatChip tag={BixatTags.adobeXD} withTitle={false} />
+            <BixatChip tag={BixatTags.adobeIllustrator} withTitle={false} />
+            <BixatChip tag={BixatTags.adobePhotoshop} withTitle={false} />
           </div>
         </section>
 
@@ -138,11 +138,11 @@ function App() {
               justifyContent: "center",
             }}
           >
-            <BixatChip tag={tags.webDev} withTitle={true} />
-            <BixatChip tag={tags.mobileDev} withTitle={true} />
-            <BixatChip tag={tags.desktopDev} withTitle={true} />
-            <BixatChip tag={tags.backendDev} withTitle={true} />
-            <BixatChip tag={tags.uiuxDesign} withTitle={true} />
+            <BixatChip tag={BixatTags.webDev} withTitle={true} />
+            <BixatChip tag={BixatTags.mobileDev} withTitle={true} />
+            <BixatChip tag={BixatTags.desktopDev} withTitle={true} />
+            <BixatChip tag={BixatTags.backendDev} withTitle={true} />
+            <BixatChip tag={BixatTags.uiuxDesign} withTitle={true} />
           </div>
         </section>
 
@@ -159,11 +159,11 @@ function App() {
               justifyContent: "center",
             }}
           >
-            <BixatChip tag={tags.android} withTitle={true} />
-            <BixatChip tag={tags.ios} withTitle={true} />
-            <BixatChip tag={tags.windows} withTitle={true} />
-            <BixatChip tag={tags.linux} withTitle={true} />
-            <BixatChip tag={tags.macos} withTitle={true} />
+            <BixatChip tag={BixatTags.android} withTitle={true} />
+            <BixatChip tag={BixatTags.ios} withTitle={true} />
+            <BixatChip tag={BixatTags.windows} withTitle={true} />
+            <BixatChip tag={BixatTags.linux} withTitle={true} />
+            <BixatChip tag={BixatTags.macos} withTitle={true} />
           </div>
         </section>
 
@@ -180,10 +180,10 @@ function App() {
               justifyContent: "center",
             }}
           >
-            <BixatChip tag={tags.github} withTitle={true} />
-            <BixatChip tag={tags.clickup} withTitle={true} />
-            <BixatChip tag={tags.CiCd} withTitle={true} />
-            <BixatChip tag={tags.projectManagement} withTitle={true} />
+            <BixatChip tag={BixatTags.github} withTitle={true} />
+            <BixatChip tag={BixatTags.clickup} withTitle={true} />
+            <BixatChip tag={BixatTags.CiCd} withTitle={true} />
+            <BixatChip tag={BixatTags.projectManagement} withTitle={true} />
           </div>
         </section>
       </div>

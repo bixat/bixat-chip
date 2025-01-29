@@ -35,7 +35,7 @@ import {
 } from "react-icons/fa";
 import { IoLogoGooglePlaystore } from "react-icons/io5";
 
-export const tags = {
+export const BixatTags = {
   flutter: {
     name: "Flutter",
     textColor: "#49b5ea",

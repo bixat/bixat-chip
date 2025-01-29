@@ -1,0 +1,30 @@
+.bixat-chip {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.bixat-chip:hover {
+  transform: scale(1.1);
+}
+
+.bixat-chip__link {
+  text-decoration: none;
+  border-radius: 9999px;
+}
+
+.bixat-chip__title {
+  margin: 0;
+  font-weight: bold;
+}
+
+.bixat-chip__icon {
+  display: flex;
+  align-items: center;
+}

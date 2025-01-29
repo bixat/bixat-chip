@@ -1,0 +1,13 @@
+**/node_modules
+**/dist
+**/build
+**/public
+**/package-lock.json
+**/package.json
+**/yarn.lock
+**/pnpm-lock.yaml
+**/pnpm-lock.yaml
+**/pnpm-lock.yaml
+**/pnpm-lock.yaml
+**/pnpm-lock.yaml
+**/.DS_Store

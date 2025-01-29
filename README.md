@@ -11,7 +11,6 @@ A modern, customizable React chip component for creating interactive social medi
 - Fully customizable colors with auto-opacity
 - Custom link support
 - Clean CSS without framework dependencies
-- Responsive design
 - TypeScript support
 - Lightweight and performant
 
@@ -23,10 +22,8 @@ npm install bixat-chip
 yarn add bixat-chip
 ```
 
-## Usage
-
 ```tsx
-import { BixatChip, TagType } from 'bixat-chip';
+import { BixatChip, TagType, BixatTags } from 'bixat-chip';
 import { FaGithub } from 'react-icons/fa';
 
 const githubTag: TagType = {
@@ -36,12 +33,21 @@ const githubTag: TagType = {
   website: "https://github.com/bixat"
 };
 
+// Example usage of predefined tags
+const predefinedTag = BixatTags.github;
+
 function App() {
   return (
-    <BixatChip 
-      tag={githubTag}
-      withTitle={true}
-    />
+    <div>
+      <BixatChip
+        tag={githubTag}
+        withTitle={true}
+      />
+      <BixatChip
+        tag={predefinedTag}
+        withTitle={true}
+      />
+    </div>
   );
 }
 ```
@@ -127,13 +133,13 @@ const socialLinks = () => {
 ### Development
 
 # Clone the repository
-git clone https://github.com/bixat/bixat-chip.git
+```git clone https://github.com/bixat/bixat-chip.git```
 
 # Install dependencies
-npm install
+```npm install```
 
 # Build the component
-npm run build
+```npm run build```
 
 ## Contributing
 
@@ -145,4 +151,4 @@ npm run build
 
 ## License
 
-MIT © [bixat](https://github.com/bixat)
+MIT © [Bixat.dev](https://bixat.dev)

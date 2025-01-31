@@ -23,6 +23,7 @@ import {
   SiDevdotto,
   SiTauri,
   SiCss3,
+  SiFastapi,
 } from "react-icons/si";
 import { FaChrome, FaProjectDiagram, FaTasks, FaTools } from "react-icons/fa";
 import {
@@ -267,7 +268,7 @@ export const BixatTags = {
   fastapi: {
     name: "FastAPI",
     textColor: "#009688",
-    icon: <SiReact color="#009688" />,
+    icon: <SiFastapi color="#009688" />,
     website: "https://fastapi.tiangolo.com/",
   },
   tauri: {
